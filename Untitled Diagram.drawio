@@ -127,13 +127,25 @@
         <mxCell id="_g98knCzUsyNgXALT3Sb-34" value="Menghitung Total Harga Pesanan + Pajak 10% + Biaya Pelayanan Rp 20.000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="395" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_g98knCzUsyNgXALT3Sb-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="_g98knCzUsyNgXALT3Sb-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="_g98knCzUsyNgXALT3Sb-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="710" y="429.5" as="sourcePoint" />
             <mxPoint x="810" y="429.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_g98knCzUsyNgXALT3Sb-36" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_g98knCzUsyNgXALT3Sb-35">
+        <mxCell id="_g98knCzUsyNgXALT3Sb-36" value="Pesanan &amp;gt; Rp 100.000" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_g98knCzUsyNgXALT3Sb-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-37" value="Diskon 10%" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="385" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_g98knCzUsyNgXALT3Sb-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="460" as="sourcePoint" />
+            <mxPoint x="635" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-39" value="Pesanan &amp;gt; Rp 50.000" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_g98knCzUsyNgXALT3Sb-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
