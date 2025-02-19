@@ -13,7 +13,7 @@
             <mxPoint x="220" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EXviPk7qfpvwyyhZaZgb-2" value="input Menu&amp;nbsp;&lt;div&gt;Makanan dan Minunan&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="EXviPk7qfpvwyyhZaZgb-2" value="input Menu&lt;div&gt;String namaMenu&lt;/div&gt;&lt;div&gt;double harga&lt;/div&gt;&lt;div&gt;String kategori&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="142.5" y="169" width="155" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EXviPk7qfpvwyyhZaZgb-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
@@ -22,8 +22,8 @@
             <mxPoint x="220" y="289" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_g98knCzUsyNgXALT3Sb-0" value="Menampilkan Menu&lt;div&gt;Makanan dan Minuman&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="290" width="140" height="60" as="geometry" />
+        <mxCell id="_g98knCzUsyNgXALT3Sb-0" value="Menampilkan Menu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="290" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_g98knCzUsyNgXALT3Sb-1" value="input Pesanan&lt;div&gt;dari Pelanggan&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
@@ -33,6 +33,63 @@
             <mxPoint x="219.5" y="350" as="sourcePoint" />
             <mxPoint x="220" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.5" y="590" as="sourcePoint" />
+            <mxPoint x="219.5" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-8" value="Pesan Lagi?" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_g98knCzUsyNgXALT3Sb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.5" y="790" as="sourcePoint" />
+            <mxPoint x="219.5" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-11" value="Pesan Lagi?" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_g98knCzUsyNgXALT3Sb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-12" value="Proses&lt;div&gt;Pesanan&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.5" y="460" as="sourcePoint" />
+            <mxPoint x="219.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-17" value="Pesan Lagi?" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_g98knCzUsyNgXALT3Sb-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-18" value="input Pesanan&lt;div&gt;dari Pelanggan&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="_g98knCzUsyNgXALT3Sb-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="429.5" as="sourcePoint" />
+            <mxPoint x="370" y="429.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-20" value="Lanjut Bayar" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_g98knCzUsyNgXALT3Sb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-21" value="Proses&lt;div&gt;Pesanan&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="402.5" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="_g98knCzUsyNgXALT3Sb-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272.5" y="559.5" as="sourcePoint" />
+            <mxPoint x="372.5" y="559.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-23" value="Lanjut Bayar" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_g98knCzUsyNgXALT3Sb-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_g98knCzUsyNgXALT3Sb-24" value="input Pesanan&lt;div&gt;dari Pelanggan&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
